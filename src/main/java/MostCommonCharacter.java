@@ -19,7 +19,6 @@ public class MostCommonCharacter {
 
           else
             recurringChar.put(str.charAt(index), 1);
-
         }
 
         int maxValue = Collections.max(recurringChar.values());
